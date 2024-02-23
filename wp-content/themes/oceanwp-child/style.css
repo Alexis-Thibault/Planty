@@ -10,4 +10,6 @@ Version: 3.5.3.1708694306
 Updated: 2024-02-23 14:18:26
 
 */
-
+.page-header {
+    display: none;
+}
