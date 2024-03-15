@@ -4,7 +4,7 @@ Tags: block, gutenberg, blocks, gutenberg blocks, editor, button, post grid, TOC
 Requires at least: 5.8
 Tested up to: 6.4
 Requires PHP: 7.0
-Stable tag: 4.5.1
+Stable tag: 4.5.3
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -147,6 +147,9 @@ Learn from our video tutorials available on our **[Youtube Channel](https://www.
 Join our **[Facebook Group](https://www.facebook.com/groups/432798227512253/)**.
 Or rate us on **[WordPress](https://wordpress.org/support/plugin/essential-blocks/reviews/?rate=5#new-post)**. 😊
 
+##CONTRIBUTE
+The full source code is available on [GitHub Repository](https://github.com/WPDevelopers/essential-blocks-for-gutenberg). Feel free to contribute or report an issue.
+
 ##🔥 WHAT’S NEXT?
 If you like Essential Blocks, then consider checking out our other WordPress Plugins:
 
@@ -222,6 +225,24 @@ Yes, you can effortlessly display your WooCommerce products on your store websit
 If you found the recent version of Essential Blocks isn’t working or conflicting with other plugins, then you can use earlier versions of the plugin.
 
 == Changelog ==
+
+= 4.5.3 - 14/02/2024
+- Fixed: **Advanced Navigation** styling issue fix
+- Fixed: **Advanced Navigation** custom navigation not working in mobile
+- Fixed: **Fluent Form** & **WPForms** not working in multisite
+- Fixed: **Wrapper** conflict with custom height
+- Fixed: **Advanced video** not pausing on popup close
+
+= 4.5.2 - 27/02/2024
+- Fixed: **Form block** not loading when used inside patterns
+- Fixed: **Pricing Table** block feature icon color not updating properly
+- Fixed: Images not loading properly on *Image slider** block
+- Fixed: Font loading issue
+- Improved: Security enhancement
+- Improved: Gradient color opacity default value in all blocks
+- Improved: Reduce dynamic query
+- Improved: Updated new fonts in Google font library
+- Few minor bug fixes & improvements
 
 = 4.5.1 - 15/02/2024
 - Fixed: ORG issues after release 4.5.0
