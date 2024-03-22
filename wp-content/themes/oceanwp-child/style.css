@@ -22,6 +22,9 @@ Updated: 2024-02-23 14:18:26
     color: black !important
 }
 
+.legal-mention p {
+    margin: 0px;
+}
 /* Menu */
 
 .btn-meet-us {
