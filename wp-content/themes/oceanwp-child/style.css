@@ -21,3 +21,78 @@ Updated: 2024-02-23 14:18:26
 .style-label {
     color: black !important
 }
+
+/* Menu */
+
+.btn-meet-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.btn-meet-us a {
+    font-size: 16px !important;
+    font-family: 'Syne' !important;
+    font-weight: 400 !important;
+    color: black !important;
+}
+
+.btn-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.btn-admin a {
+    font-size: 16px !important;
+    font-family: 'Syne' !important;
+    font-weight: 400 !important;
+    color: black !important;
+}
+
+.btn-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dc9f96;
+    width: 200px;
+    height: 70px;
+}
+
+.btn-order a {
+    background-color: #dc9f96 !important;
+    font-size: 16px !important;
+    font-family: 'Syne' !important;
+    font-weight: 700 !important;
+    color: white !important;
+}
+
+/* SHORTCODES */
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Syne';
+    font-weight: 500;
+}
+
+/* Masquer les flèches d'incrémentation/décrémentation */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
