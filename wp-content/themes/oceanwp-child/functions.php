@@ -34,7 +34,7 @@ function quantity_shortcode()
     return
         '
     <div class="quantity">
-        <input class="input" type="number" min="0" pattern="[0-9]*" />
+        <input class="input" type="number" min="0" placeholder="0" pattern="[0-9]*" />
     </div>
     ';
 }
